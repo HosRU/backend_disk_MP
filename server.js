@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(cors())
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
-const PORT = 8081;
+const PORT = 3003;
 
 app.listen(PORT, () => {
   console.log(`listening ${PORT}`);
